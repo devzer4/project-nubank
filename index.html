@@ -104,8 +104,11 @@
 
 
   <!-- ======== HERO ======== -->
-  <main class="container border hero py-5">
-    <div class="flex-item-1 py-3 border">
+  <div class="bg-home">
+    <img src="svg/bg-home.svg" class="svg-bg-home" alt="" onload="SVGInject(this)">
+  </div>
+  <main class="container hero py-5">
+    <div class="flex-item-1 py-3">
       <h1>Ser nubank é reiventar sua vida financeira.</h1>
       <p class="my-2">Conta com rendimento acima da poupança, cartão de crédito sem anuidade e o melhor: resolva tudo
         pelo App.</p>
@@ -115,9 +118,78 @@
         <a href=""><img src="svg/playstore.svg" class="ml-1" alt="" onload="SVGInject(this)"></a>
       </div>
     </div>
-    <div class="flex-item-3">
+
+    <div class="flex-item-3 flex-center div-card py-4">
+      <img src="svg/icon-card.svg" class="icon-card-hero dropshadow" alt="" onload="SVGInject(this)">
+      <img src="svg/icon-mobile.svg" class="icon-mobile-hero dropshadow" alt="" onload="SVGInject(this)">
+      <img src="svg/icon-contactless.svg" class="icon-contactless-hero dropshadow" alt="" onload="SVGInject(this)">
+      <div class="card"></div>
     </div>
   </main>
+
+  <!-- ======== SECTION PEOPLE ======== -->
+  <section class="container">
+    <div class="flex-item-4 flex-column">
+      <h5>Para todos</h5>
+      <h2>Completo.</h2>
+      <p>Resolva seu dia a dia pelo celular. Sem filas, sem anuidade, sem tarifas abusivas. Cuide do seu dinheiro de um
+        jeito simples. Somo eficientes para você usar seu dinheiro com o que realmente importa, sem tarifas de
+        manutenção.</p>
+
+      <ul class="list mt-2">
+        <li class="list-item bg-icon-check">
+          <strong>100% gratuito</strong>
+          <p>Isso mesmo, você não paga nada para abrir sua conta.</p>
+        </li>
+
+        <li class="list-item bg-icon-check">
+          <strong>Sem taxas ou cobranças</strong>
+          <p>Não se preocupe com taxas adicionais ou anuidades.</p>
+        </li>
+
+        <li class="list-item bg-icon-check">
+          <strong>O melhor suporte de todos</strong>
+          <p>Segundo pesquisas, temos o melhor suporte pra você.</p>
+        </li>
+      </ul>
+      <p>
+        <a href="" class="link">Confira os benefícios</a>
+      </p>
+    </div>
+    <div class="flex-item-3 mx-2">
+      <img src="svg/svg-people1.svg" alt="" onload="SVGInject(this)">
+    </div>
+    <div class="flex-item-1 flex-column mx-2 my-3">
+      <img src="svg/svg-people2.svg" class="mx-2 my-2" id="people2" alt="" onload="SVGInject(this)">
+      <img src="svg/svg-people3.svg" class="mx-2 my-2" alt="" onload="SVGInject(this)">
+    </div>
+  </section>
+
+  <!-- ======== SECTION BEST ======== -->
+  <section class="container">
+    <div class="best px-3 py-4">
+      <div class="flex-item-auto">
+        <h5>O melhor</h5>
+        <h2>Por que Nubank?</h2>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-cash.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+        <p class="mt-2 bold">Conta rende mais que a poupança</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-transfer.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+        <p class="mt-2 bold">Transferências e TEDs ilimitadas</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-card.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+        <p class="mt-2 bold">Conta e cartão 100% gratuitos</p>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img src="svg/icon-phone.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+        <p class="mt-2 bold">O melhor suporte 24h do Brasil</p>
+      </div>
+    </div>
+  </section>
 
   <!-- ======== JS ======== -->
   <script src="js/app.js"></script>
